@@ -16,7 +16,7 @@ body {
 
 /* Estilo para as imagens */
 img {
-    max-width: Defina um tamanho; /* A imagem nunca ultrapassará a largura da tela */
+    max-width: 20% /* A imagem nunca ultrapassará a largura da tela */
     height: auto; /* Mantém a proporção da imagem */
 }
 
