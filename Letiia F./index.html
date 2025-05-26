@@ -3,138 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho de programação</title>
-
+    <title>Trabalho de Programação</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
-    <h1>2 Trimestre</h1>
+    <h1>2º Trimestre</h1>
 
-    <img src="desenvolvedor.jpeg" alt="Nome da imagem">
+    <img src="desenvolvedor.jpeg" alt="Imagem de um desenvolvedor">
 
-    <h2>Leticia n16</h2>
-    <div>: div>
+    <h2>Leticia n° 16</h2>
 
-<p>O que é?
-A tag div é usada para criar divisões (ou blocos) na página HTML.</p>
-<p>Para que serve?
-Agrupa elementos para que possam ser organizados, estilizados com CSS ou manipulados com JavaScript.</p>
+    <div>
 
-<P>Principais tags utilizadas em linguagem de programação (HTML)</P>
+        <p><strong>O que é a tag &lt;div&gt;?</strong><br>
+        A tag <code>div</code> é usada para criar divisões (ou blocos) dentro da página HTML.</p>
 
-html: estrutura principal do documento.
+        <p><strong>Para que serve?</strong><br>
+        Serve para agrupar elementos que podem ser organizados com CSS ou manipulados com JavaScript.</p>
 
-head: contém informações como título, links de estilo, etc.
+        <p><strong>Principais tags HTML e suas funções:</strong></p>
+        <ul>
+            <li><code>html</code>: estrutura principal do documento.</li>
+            <li><code>head</code>: contém o título e links externos como CSS.</li>
+            <li><code>body</code>: contém o conteúdo visível da página.</li>
+            <li><code>h1</code> até <code>h6</code>: títulos de diferentes tamanhos.</li>
+            <li><code>p</code>: parágrafo de texto.</li>
+            <li><code>a</code>: link.</li>
+            <li><code>img</code>: imagem.</li>
+            <li><code>ul, ol, li</code>: listas.</li>
+            <li><code>br</code>: quebra de linha.</li>
+            <li><code>input</code>: campo de entrada de dados.</li>
+            <li><code>label</code>: rótulo que identifica o que o usuário deve preencher.</li>
+            <li><code>button</code>: botão clicável.</li>
+            <li><code>div</code> e <code>span</code>: blocos para organizar elementos.</li>
+        </ul>
 
-body: onde fica o conteúdo visível da página.
+        <p><strong>O que é a tag &lt;input&gt;?</strong><br>
+        A tag <code>input</code> cria campos para o usuário digitar ou escolher informações, como texto, número, data, senha, etc.</p>
 
-h1 até h6: títulos.
+        <p><strong>Para que serve?</strong><br>
+        Serve para coletar dados do usuário em formulários, como nome, idade, e-mail, etc.</p>
 
-p: parágrafo.
+        <p><strong>O que é a tag &lt;label&gt;?</strong><br>
+        A tag <code>label</code> é usada para criar um rótulo associado a um campo <code>input</code>.</p>
 
-a: link.
+        <p><strong>Para que serve?</strong><br>
+        Ela melhora a acessibilidade e ajuda o usuário a entender o que deve ser preenchido naquele campo.</p>
 
-img: imagem.
+        <p><strong>Exemplo prático de uso de &lt;label&gt; e &lt;input&gt;:</strong></p>
 
-ul, ol, li: listas.
+        <form>
+            <label for="nome">Digite seu nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome aqui"><br><br>
 
-br: quebra de linha.
+            <label for="idade">Sua idade:</label><br>
+            <input type="number" id="idade" name="idade" min="1"><br><br>
+        </form>
 
-input: campo de entrada de dados.
+        <p><strong>Laços repetitivos em JavaScript:</strong></p>
 
-button: botão.
+        <p><code>for (let i = 0; i &lt; 5; i++) { console.log(i); }</code><br>
+        Repete enquanto a condição for verdadeira.</p>
 
-div e span: blocos de agrupamento.
+        <p><code>let i = 0;<br>while (i &lt; 5) { console.log(i); i++; }</code><br>
+        Repete enquanto a condição for verdadeira.</p>
 
+        <p><strong>do...while:</strong><br>
+        Executa pelo menos uma vez, mesmo que a condição seja falsa depois.</p>
 
+        <p><strong>O que é o console?</strong><br>
+        Ferramenta dos navegadores usada para testar códigos JavaScript.</p>
 
-<p>3. Laços repetitivos (em JavaScript)</p>
+        <p><strong>Para que serve o console?</strong></p>
+        <ul>
+            <li>Testar comandos JavaScript rapidamente.</li>
+            <li>Exibir mensagens com <code>console.log()</code>.</li>
+            <li>Identificar erros no código.</li>
+            <li>Fazer depuração (debug).</li>
+        </ul>
 
-<p>for: executa um bloco de código um número fixo de vezes.
+        <p><strong>Propriedades CSS importantes:</strong></p>
+        <ul>
+            <li><code>background-color</code>: cor de fundo.</li>
+            <li><code>font-size</code>: tamanho da fonte.</li>
+            <li><code>text-align</code>: alinhamento do texto.</li>
+            <li><code>color</code>: cor do texto.</li>
+            <li><code>text-transform</code>: transforma o texto em maiúsculo, minúsculo, etc.</li>
+        </ul>
 
+        <p><strong>Responsividade:</strong><br>
+        É a capacidade do site se adaptar a diferentes tamanhos de tela (celular, tablet, computador).</p>
 
-for(let i = 0; i  5; i++) {
-  console.log(i); // Mostra 0 até 4
-}</p>
+        <p><strong>Propriedade <code>alt</code>:</strong><br>
+        Descreve a imagem caso ela não possa ser exibida corretamente.</p>
 
-<p>while: executa enquanto a condição for verdadeira.
+        <button onclick="mostrarImagem()">Mostrar Imagem</button>
 
+        <img id="imagem" src="programação.jpg" alt="Imagem de programação" style="display: none; width: 300px;">
+    </div>
 
-let i = 0;
-while(i  5) {
-  console.log(i);
-  i++;
-}
-
-do...while: executa ao menos uma vez, mesmo que a condição seja falsa depois.</p>
-<p> O que é o console?</p>
-
-É uma parte das ferramentas de desenvolvedor que existem nos navegadores (como Chrome, Firefox, Edge).
- <p>Para que serve o console?</p>
-
-<p>1. Testar códigos JavaScript
-
-Você pode escrever e testar comandos diretamente nele.</p>
-
-
-<p>2. Ver mensagens do código
-
-Usando console.log("mensagem") no seu código, você consegue acompanhar o que está acontecendo.</p>
-
-
-<p>3. Encontrar erros
-
-Quando algo dá errado na página, o console mostra mensagens de erro para ajudar a identificar o problema.</p>
-
-
-<p>4. Depuração (debug)
-
-Desenvolvedores usam o console para entender o comportamento do código e resolver bugs.</p>
-        
-        <p>background-color é usado para definir a cor de
-        fundo de um elemento HTML.</p>
-        
-        
-        <p>font-size: Define o tamanho da fonte.</p>
-        
-        
-        <p>text-align: Controla o alinhamento do texto
-        (esquerda, direita, centralizado ou justificado).</p>
-        
-        
-        <p>color: Define a cor do texto.</p>
-        
-        
-       <p> text-transform: Controla a transformação das
-        letras (maiúsculas, minúsculas, capitalização).</p>
-        <p>Reponsividade: capacidade de responder a algo de forma rápida, adequada e adaptada à situação</p>
-        <p>A propriedade alt serve para informar o que está contido naquela tag, caso seu conteúdo não possa ser exibio corretamente.</p>
-</body>
-</html>
-<button
-onclick="mostrarImagem()">Mostrar Imagem</button>
-
-
-    <img id="imagem"
-src="programação.jpg" style="display: none; width: 300px;">
-
-</main>
-   <footer>Leticia Fernandes Araujo</footer>
-
+    <footer>Leticia Fernandes Araujo</footer>
 
     <script>
-
-
         function mostrarImagem() {
-
-
-            document.getElementById("imagem").style.display
-= "block";
-
-
+            document.getElementById("imagem").style.display = "block";
         }
-
-
     </script>
+
+</body>
+</html>
