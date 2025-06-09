@@ -7,7 +7,7 @@ body {
     height: 100vh; /* Faz o body ocupar 100% da altura da tela */
     margin: 0; /* Remove a margem padrão */
     text-align: center; /* Centraliza os textos */
-    background-image: url('plantação.jpeg');
+    background-image: url('clarto.webp');
 
 
 /* Estilo para a div que contém a imagem */
@@ -24,13 +24,13 @@ img {
   }
 /* Estilo para o título h1 */
 h1 {
-    color:Escolha uma cor;
+    color:aliceblue
     margin-top: Defina o tamanho da fonte; /* Espaço superior */
 }
 
 /* Estilo para o subtítulo h2 */
 h2 {
-    color:Escolha uma cor;
+    color:aliceblue
     margin-top: Defina um tamnho; /* Espaço superior */
 }
 body
